@@ -8,7 +8,7 @@ A clean and beginner-friendly Django web app to track marketing spend, calculate
 
 ## 📸 Screenshot
 
-![Dashboard UI](E:\marketing_roi_analyzer\a.png)
+![Dashboard UI](https://github.com/K2302/django_financial_pred/blob/main/a.png)
 
 ---
 
