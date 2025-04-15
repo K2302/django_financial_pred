@@ -8,7 +8,7 @@ A clean and beginner-friendly Django web app to track marketing spend, calculate
 
 ## 📸 Screenshot
 
-![Dashboard UI](e:\ChatGPT Image Apr 15, 2025, 12_27_50 PM.png)
+![Dashboard UI](E:\marketing_roi_analyzer\a.png)
 
 ---
 
