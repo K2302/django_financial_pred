@@ -11,3 +11,14 @@ def dashboard_view(request):
         "channel_distribution": [25, 35, 20, 20],
     }
     return render(request, 'dashboard/dashboard.html', context)
+import logging
+logger = logging.getLogger(__name__)
+
+def dashboard_view(request):
+    logger.info("Dashboard accessed by user")
+    try:
+        # your existing context + view code
+        return render(request, 'dashboard/dashboard.html', context)
+    except Exception as e:
+        logger.error(f"Dashboard view failed: {e}")
+        return render(request, 'dashboard/error.html')
